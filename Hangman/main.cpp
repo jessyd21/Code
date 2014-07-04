@@ -16,11 +16,11 @@ string makeUnderscores(string secret)
         char c = secret[x];
         if(c >= 'A' && c <= 'Z')
         {
-            output += "_ ";
+            output += ".";
         }
         else
             output += c;
-            output += " ";
+
     }
 
     return output;
